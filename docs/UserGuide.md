@@ -53,11 +53,11 @@ AniChan can also be used on all major operating systems such as Windows and Linu
 
 ## 2. Quick Start
 
-1.   Ensure that you have Java `11` or above installed.
+1.   Ensure that you have Java   `11` or above installed.
 2.   Download the latest version of **AniChan** from [here](https://github.com/AY2021S1-CS2113T-F12-2/tp/releases/tag/V1.0).
 3.   Copy the file to the folder you want to use as the home folder for **AniChan**.
-4.   Open **Command Prompt** and navigate to the folder where `anichan.jar` is located, and run `java -jar anichan.jar`.
-5.   Type a command into the command prompt and press `Enter` to execute it. For example, typing `help` and pressing `Enter` will display a useful help message to get you started.
+4.   Open **Command Prompt** and navigate to the folder where   `anichan.jar` is located, and run   `java -jar anichan.jar`.
+5.   Type a command into the command prompt and press   `Enter` to execute it. For example, typing   `help` and pressing   `Enter` will display a useful help message to get you started.
 
 <br/>
 
@@ -392,6 +392,7 @@ Delete a watchlist that is no longer needed or was created by mistake.
 
 Format: `watchlist -d <WATCHLIST_INDEX>`
 *   For deletion to succeed, you must have at least two watchlists.
+
 *   If the currently active (selected) watchlist is deleted, then **AniChan** will automatically set
 the first watchlist in the watchlist list to be the new active watchlist.
 
@@ -623,29 +624,29 @@ works. However, we would strongly recommend you not to as you may cause data cor
 
 ## 5. Command Summary
 
-|Feature|Command|
-|---|---|
-| Help                                     | `help`                                                   |
+| Feature                                      | Command                                                  |
+| ---                                          | ---                                                      |
+| Help                                         | `help`                                                   |
 | Estimate time needed to translate the script | `estimate <SCRIPT_FILE_NAME> [-wph WORDS_PER_HOUR]`      |
-| Browse        | `browse -s <SORT_OPTION> -p <PAGE_NO.> -o <SORT_ORDER>`         |
-| Search by title                          | `search -n <SEARCH_TERM>`                                |
-| Search by genre                          | `search -g <SEARCH_TERM>`                                |
-| View anime information     | `info -a <ANIME_ID>`                                     |
-| Create new workspace                     | `workspace -n <NAME>`                                    |
-| Switch workspace                         | `workspace -s <NAME>`                                    |
-| List workspace                           | `workspace -l`                                           |
-| Delete workspace                         | `workspace -d <NAME>`                                    |
-| Create watchlist                         | `watchlist -n <WATCHLIST_NAME>`                          |
-| List all watchlist                       | `watchlist -l`                                           |
-| Select watchlist                         | `watchlist -s <WATCHLIST_INDEX>`                         |
-| Delete watchlist                         | `watchlist -d <WATCHLIST_INDEX>`                         |
-| Add to watchlist                         | `add -a <ANIME_ID>`                                      |
-| Remove from watchlist                    | `remove -d <ANIME_ID_IN_WATCHLIST>`                      |
-| View anime in watchlist                  | `view -v <WATCHLIST_ID>`                                 |
-| List bookmark | `bookmark -l`|
-| Add bookmark entry | `bookmark -a <ANIME_ID>`|
-| Delete bookmark entry | `bookmark -d <BOOKMARK_ID>` |
-| Edit bookmark episode | `bookmark <BOOKMARK_ID> -e <EPISODE>` |
-| Add note to bookmark | `bookmark <BOOKMARK_ID> -n <NOTE>` |
-| View bookmark| `bookmark <BOOKMARK_ID>`|
-| Exit| exit |
+| Browse                                       | `browse -s <SORT_OPTION> -p <PAGE_NO.> -o <SORT_ORDER>`  |
+| Search by title                              | `search -n <SEARCH_TERM>`                                |
+| Search by genre                              | `search -g <SEARCH_TERM>`                                |
+| View anime information                       | `info -a <ANIME_ID>`                                     |
+| Create new workspace                         | `workspace -n <NAME>`                                    |
+| Switch workspace                             | `workspace -s <NAME>`                                    |
+| List workspace                               | `workspace -l`                                           |
+| Delete workspace                             | `workspace -d <NAME>`                                    |
+| Create watchlist                             | `watchlist -n <WATCHLIST_NAME>`                          |
+| List all watchlist                           | `watchlist -l`                                           |
+| Select watchlist                             | `watchlist -s <WATCHLIST_INDEX>`                         |
+| Delete watchlist                             | `watchlist -d <WATCHLIST_INDEX>`                         |
+| Add to watchlist                             | `add -a <ANIME_ID>`                                      |
+| Remove from watchlist                        | `remove -d <ANIME_ID_IN_WATCHLIST>`                      |
+| View anime in watchlist                      | `view -v <WATCHLIST_ID>`                                 |
+| List bookmark                                | `bookmark -l`                                            |
+| Add bookmark entry                           | `bookmark -a <ANIME_ID>`                                 |
+| Delete bookmark entry                        | `bookmark -d <BOOKMARK_ID>`                              |
+| Edit bookmark episode                        | `bookmark <BOOKMARK_ID> -e <EPISODE>`                    |
+| Add note to bookmark                         | `bookmark <BOOKMARK_ID> -n <NOTE>`                       |
+| View bookmark                                | `bookmark <BOOKMARK_ID>`                                 |
+| Exit                                         | `exit`                                                     |
