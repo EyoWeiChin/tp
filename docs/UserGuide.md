@@ -34,6 +34,7 @@
 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.8.6 [View information of bookmark entry](#386-view-information-of-bookmark-entry)
 <br/>&nbsp;3.9 [Exit AniChan](#39-exit-anichan)
 <br/>&nbsp;3.10 [Saving and loading data](#310-saving-and-loading-data)
+
 4. [FAQ](#4-faq)
 5. [Command Summary](#5-command-summary)
 
@@ -52,27 +53,27 @@ AniChan can also be used on all major operating systems such as Windows and Linu
 
 ## 2. Quick Start
 
-1. Ensure that you have Java `11` or above installed.
-2. Download the latest version of **AniChan** from [here](https://github.com/AY2021S1-CS2113T-F12-2/tp/releases/tag/V1.0).
-3. Copy the file to the folder you want to use as the home folder for **AniChan**.
-4. Open **Command Prompt** and navigate to the folder where `anichan.jar` is located, and run `java -jar anichan.jar`.
-5. Type a command into the command prompt and press `Enter` to execute it. For example, typing `help` and pressing `Enter` will display a useful help message to get you started.
+1.   Ensure that you have Java `11` or above installed.
+2.   Download the latest version of **AniChan** from [here](https://github.com/AY2021S1-CS2113T-F12-2/tp/releases/tag/V1.0).
+3.   Copy the file to the folder you want to use as the home folder for **AniChan**.
+4.   Open **Command Prompt** and navigate to the folder where `anichan.jar` is located, and run `java -jar anichan.jar`.
+5.   Type a command into the command prompt and press `Enter` to execute it. For example, typing `help` and pressing `Enter` will display a useful help message to get you started.
 
 <br/>
 
 ## 3. Features 
 **Some useful notes on the command format**
 
-* Commands are case-sensitive.
+*   Commands are case-sensitive.
 E.g. Only `help` will work, and so `HELP`, `hElp`, and its other variant will not work.
 
-* In this guide words in UPPERCASE are values that can be supplied to the command.
+*   In this guide words in UPPERCASE are values that can be supplied to the command.
 E.g. in `browse -s SORT_CATEGORY -p PAGE_NO.` where SORT_CATEGORY and PAGE_NO. are parameters that can be used with `browse -s name -o asc`.
 
-* Square brackets indicate optional parameters.
+*   Square brackets indicate optional parameters.
 E.g. `browse [-s SORT_CATEGORY]` can be used simply as `browse` or `browse -s name`.
   
-* The order of parameters are not important.
+*   The order of parameters are not important.
 E.g. Both `browse -s name -p 2` and `browse -p 2 -s name` are both acceptable and will give you the same result.
 
 <br/>
@@ -92,9 +93,9 @@ This command allows you to figure out the amount of time needed to finish transl
 <br/>
 
 Format: `estimate <SCRIPT_FILE_NAME> [-wph WORDS_PER_HOUR]`
-* **Only one** `.txt` file is accepted by **AniChan**.
-* You have to specify the file extension too! E.g. `script.txt`.
-* If the option `-wph` is not specified, the average translator's translation speed will be used to produce three estimation timings for you to consider.
+*   **Only one** `.txt` file is accepted by **AniChan**.
+*   You have to specify the file extension too! E.g. `script.txt`.
+*   If the option `-wph` is not specified, the average translator's translation speed will be used to produce three estimation timings for you to consider.
 
 <br/>
 
@@ -128,28 +129,28 @@ Browse also provides various options to customise each browsing session by being
 
 Format: `browse [-s SORT_CATEGORY] [-o DISLAY_ORDER] [-p PAGE_NUMBER`]
 
-* `-s name` will sort the list by alphabetical order.
+*   `-s name` will sort the list by alphabetical order.
 
-* `-s rating` will sort the list by rating.
+*   `-s rating` will sort the list by rating.
 
-* `-o asc` will arrange it in ascending order.
+*   `-o asc` will arrange it in ascending order.
 
-* `-o dsc` will arrange it in descending order.
+*   `-o dsc` will arrange it in descending order.
 
-* `-p N` will display page N of the list.
+*   `-p N` will display page N of the list.
 
-* `-p N` N needs to be a positive number.
+*   `-p N` N needs to be a positive number.
 
-* The order of the parameter does not matter
+*   The order of the parameter does not matter
 
-* If no parameters or only `-o` is specified then it will display anime in no particular order.
+*   If no parameters or only `-o` is specified then it will display anime in no particular order.
 
 <br/>
 
 Here are some commonly used browse commands, that may help you get started. Feel free to experiment with different combinations of options!
 
-* `browse -s name -o dsc`: browse alphabetically from A - Z
-* `browse -s rating -o dsc`: browse starting from the most highly rated anime
+*   `browse -s name -o dsc`: browse alphabetically from A - Z
+*   `browse -s rating -o dsc`: browse starting from the most highly rated anime
 
 <br/>
 
@@ -193,7 +194,7 @@ Search is a versatile tool that will allow you to search through all available a
 Search for all anime titles that contain or match precisely the search term.
 
 Format: `search -n <SEARCH_TERM>` 
-* The search term is not case sensitive.
+*   The search term is not case sensitive.
 
 <br/>
 
@@ -257,10 +258,10 @@ Genre: [Action, Adventure, Drama, Sci-Fi]
 
 ### 3.6 Workspace management
 This command handles all workspace related operations:
-* Creates new workspace
-* Switches workspace
-* Lists existing workspaces
-* Deletes workspace
+*   Creates new workspace
+*   Switches workspace
+*   Lists existing workspaces
+*   Deletes workspace
 
 Therefore, the command parameter for workspace command is dependent on the operation you wish to use. 
 For example, `-l` would signify list workspace while `-d` signifies delete.
@@ -370,9 +371,9 @@ Currently, you have 2 watchlist(s):
 Select another watchlist to use.
 
 Format: `watchlist -s <WATCHLIST_INDEX>`
-* Selected watchlist is also known as the **active watchlist**, which is the one
+*   Selected watchlist is also known as the **active watchlist**, which is the one
 that you are using for adding anime into or removing anime from.
-* Notice how the name of the watchlist in the bracket of your prompt has changed.
+*   Notice how the name of the watchlist in the bracket of your prompt has changed.
 
 <br/>
 
@@ -390,8 +391,8 @@ The expected outcome:
 Delete a watchlist that is no longer needed or was created by mistake.
 
 Format: `watchlist -d <WATCHLIST_INDEX>`
-* For deletion to succeed, you must have at least two watchlists.
-* If the currently active (selected) watchlist is deleted, then **AniChan** will automatically set
+*   For deletion to succeed, you must have at least two watchlists.
+*   If the currently active (selected) watchlist is deleted, then **AniChan** will automatically set
 the first watchlist in the watchlist list to be the new active watchlist.
 
 <br/>
@@ -427,7 +428,7 @@ Trigun added to watchlist!
 Remove an anime from the currently selected watchlist
 
 Format: `remove -d <ANIME_ID_IN_WATCHLIST>`
-* The index used has to be the anime ID in the watchlist, and not the general anime ID
+*   The index used has to be the anime ID in the watchlist, and not the general anime ID
 
 <br/>
 
@@ -513,8 +514,6 @@ Removing To Heart 2! :(
 
 <br/>
 
-
-
 #### 3.8.4 Edit Bookmark Entry Episode 
 
 Edit episode for an anime within bookmark.
@@ -592,9 +591,9 @@ Sayonara <NAME>!
 User, workspace(s), watchlist(s), and bookmark(s) data will be **saved automatically** when they are created or modified, and will be **loaded automatically** when **AniChan** is launched. 
 
 In the folder where **AniChan** is launched, there will be a `data` folder which would contain these data:
-* User data is stored in `data/user.txt`.
-* Watchlist(s) data are stored in `data/<WORKSPACE-NAME>/watchlist.txt`, e.g. if your workspace is named "AniTranslator", then the watchlist data can be found in `data/AniTranslator/watchlist.txt`.
-* Bookmark(s) data are also stored in the same location as watchlist data, `data/WORKSPACE-NAME/bookmark.txt`.
+*   User data is stored in `data/user.txt`.
+*   Watchlist(s) data are stored in `data/<WORKSPACE-NAME>/watchlist.txt`, e.g. if your workspace is named "AniTranslator", then the watchlist data can be found in `data/AniTranslator/watchlist.txt`.
+*   Bookmark(s) data are also stored in the same location as watchlist data, `data/WORKSPACE-NAME/bookmark.txt`.
 
 <br/>
 
