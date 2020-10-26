@@ -53,11 +53,11 @@ AniChan can also be used on all major operating systems such as Windows and Linu
 
 ## 2. Quick Start
 
-1.   Ensure that you have Java   `11` or above installed.
-2.   Download the latest version of **AniChan** from [here](https://github.com/AY2021S1-CS2113T-F12-2/tp/releases/tag/V1.0).
-3.   Copy the file to the folder you want to use as the home folder for **AniChan**.
-4.   Open **Command Prompt** and navigate to the folder where   `anichan.jar` is located, and run   `java -jar anichan.jar`.
-5.   Type a command into the command prompt and press   `Enter` to execute it. For example, typing   `help` and pressing   `Enter` will display a useful help message to get you started.
+1.  Ensure that you have Java `11` or above installed.
+2.  Download the latest version of **AniChan** from [here](https://github.com/AY2021S1-CS2113T-F12-2/tp/releases/tag/V1.0).
+3.  Copy the file to the folder you want to use as the home folder for **AniChan**.
+4.  Open **Command Prompt** and navigate to the folder where `anichan.jar` is located, and run `java -jar anichan.jar`.
+5.  Type a command into the command prompt and press `Enter` to execute it. For example, typing `help` and pressing `Enter` will display a useful help message to get you started.
 
 <br/>
 
@@ -649,4 +649,4 @@ works. However, we would strongly recommend you not to as you may cause data cor
 | Edit bookmark episode                        | `bookmark <BOOKMARK_ID> -e <EPISODE>`                    |
 | Add note to bookmark                         | `bookmark <BOOKMARK_ID> -n <NOTE>`                       |
 | View bookmark                                | `bookmark <BOOKMARK_ID>`                                 |
-| Exit                                         | `exit`                                                     |
+| Exit                                         | `exit`                                                   |
