@@ -44,10 +44,30 @@
 
 **Welcome to AniChan!**
 
-AniChan is a free desktop command-line application aimed to improve the efficiency of anime translators. With AniChan, translators can better manage their time with the estimation feature that allows them to identify the time that is needed to translate a script. Moreover, you can organize your translation work into different watchlists, and even add bookmarks at a certain anime episode so you can easily remember which episode you stopped translating at!
-This guide provides you with in-depth information on setting up AniChan and how to use the various features offered. You may also refer to the hyperlinks provided in the table of content above for easy navigation to the different sections based on your needs.
+AniChan is a free desktop command-line application aimed to improve the efficiency of anime translators. With AniChan, translators could manage their time more effectively by identifying the time needed to translate a script. Moreover, AniChan comes with management features such as workspace, watchlist and bookmark that can help them stay organized and focused on their work.
+<br/>
+AniChan can also be used on all major operating systems such as Windows and Linux. You can refer to the [Quick Start](#2-quick-start) guide located below for more information on getting your journey started with AniChan!
+<br/>
 
-AniChan can also be used on all major operating systems such as Windows and Linux.
+### 1.1 Purpose
+
+This guide provides you with in-depth information on setting up AniChan and how to use the various features offered. 
+
+You may also refer to the hyperlinks provided in the table of content above for easy navigation to the different sections based on your needs.
+
+<br/>
+
+### 1.2 Using this guide
+
+Along the way you might encounter several icons. These icons can help provide several types of information that may be useful to you. 
+
+> :bulb: Take note when you see this icon, as it might tell you something important.
+
+> :memo: This icon represents a friendly tip that might be useful when using our application.
+
+> :warning: A caution that you have to keep in mind when using the command
+
+Lastly, if you see blue text and they are underlined like this [example](#12-using-this-guide), they are links that will bring you to the relevant part of this user guide. 
 
 <br/>
 
